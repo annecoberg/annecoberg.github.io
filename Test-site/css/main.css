@@ -4,8 +4,8 @@
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box; } 
 
-body { 
-    font-size: 12px; 
+body, body a { 
+    font-size: 13px; 
     line-height: 32px;
     font-family: cursive;/* Ubuntu, sans-serif */;
     color: #69ac43;/*#ffd001;*/
@@ -14,19 +14,20 @@ body {
 h1 {
     font-size: 4rem; /* x.xrem  (rem is a unit of measure) */
     text-align: left;
+    margin-top: 7rem;
     color: #2b5c01;
 }
 
 h2 {
-    font-size: 1rem; /* x.xrem */
+    font-size: 1.25rem; /* x.xrem */
     text-align: left;
-    text-indent: 24px;
+    text-indent: 22px;
     border-bottom: 1px solid #c4b5d4;
 }
 
 header {
-    margin: 4rem auto;
-    padding: 2rem;
+    margin: 2rem auto;
+    padding: 2rem 2rem 10rem 2rem;
     max-width: 900px;/* xxxpx (px = pixel is a unit of measure)  */
 }
 
@@ -50,13 +51,14 @@ header, footer, footer a {
 }
 
 header img {
-    width: 400px;/*  */
+    max-width: 400;/*  */
     height: auto;
     float: right;
+    
 }
 
 footer {
     font-size: 10px;/* smaller */
-    text-indent: 30px;
+    text-indent: 28px;
 
 }
