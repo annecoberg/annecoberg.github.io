@@ -14,7 +14,7 @@ body, body a {
 h1 {
     font-size: 4rem; /* x.xrem  (rem is a unit of measure) */
     text-align: left;
-    margin-top: 7rem;
+    margin-top: 4rem;
     color: #2b5c01;
 }
 
@@ -27,7 +27,7 @@ h2 {
 
 header {
     margin: 2rem auto;
-    padding: 2rem 2rem 10rem 2rem;
+    padding: 2rem 2rem 6.75rem 2rem;
     max-width: 900px;/* xxxpx (px = pixel is a unit of measure)  */
 }
 
@@ -51,7 +51,7 @@ header, footer, footer a {
 }
 
 header img {
-    max-width: 400;/*  */
+    width: 300;/*  */
     height: auto;
     float: right;
     
